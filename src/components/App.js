@@ -1,7 +1,7 @@
 import React from 'react';
 import { connect } from 'react-redux'
-import ConnectedGoals from './goals'
-import ConnectedTodos from './todos'
+import ConnectedGoals from './Goals'
+import ConnectedTodos from './Todos'
 import {
     handleInitialData 
 } from '../actions/share'
@@ -29,4 +29,4 @@ export default connect((state) => ({
   loading: state.loading
 }))(App)
 
-export default App;
+
